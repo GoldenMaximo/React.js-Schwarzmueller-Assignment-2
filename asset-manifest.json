@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React.js-Schwarzmueller-Assignment-2/static/css/main.fc1d96d9.chunk.css",
+    "main.js": "/React.js-Schwarzmueller-Assignment-2/static/js/main.9bb6c252.chunk.js",
+    "main.js.map": "/React.js-Schwarzmueller-Assignment-2/static/js/main.9bb6c252.chunk.js.map",
+    "runtime-main.js": "/React.js-Schwarzmueller-Assignment-2/static/js/runtime-main.a1cfecb3.js",
+    "runtime-main.js.map": "/React.js-Schwarzmueller-Assignment-2/static/js/runtime-main.a1cfecb3.js.map",
+    "static/js/2.77154754.chunk.js": "/React.js-Schwarzmueller-Assignment-2/static/js/2.77154754.chunk.js",
+    "static/js/2.77154754.chunk.js.map": "/React.js-Schwarzmueller-Assignment-2/static/js/2.77154754.chunk.js.map",
+    "index.html": "/React.js-Schwarzmueller-Assignment-2/index.html",
+    "precache-manifest.3d215935f99b254a9bc627e8305e08be.js": "/React.js-Schwarzmueller-Assignment-2/precache-manifest.3d215935f99b254a9bc627e8305e08be.js",
+    "service-worker.js": "/React.js-Schwarzmueller-Assignment-2/service-worker.js",
+    "static/css/main.fc1d96d9.chunk.css.map": "/React.js-Schwarzmueller-Assignment-2/static/css/main.fc1d96d9.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1cfecb3.js",
+    "static/js/2.77154754.chunk.js",
+    "static/css/main.fc1d96d9.chunk.css",
+    "static/js/main.9bb6c252.chunk.js"
+  ]
+}
