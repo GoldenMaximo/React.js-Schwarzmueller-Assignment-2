@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
+import ValidationText from './Components/ValidationText';
+import MainInput from './Components/MainInput';
+import Char from './Components/Char';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [characters, setCharacters] = useState('GoldenMaximo');
+
+    const removeCharacterHandler = characterIndex => {
+        const newSetOfCharacters = [...characters];
+        newSetOfCharacters.splice(characterIndex, 1);
+        setCharacters(newSetOfCharacters.join(''));
+    }
+
+    return (
+        <div className="App">
+            <h1 className="h1Type1">Section 4 Assignment 2 GoldenMaximo Solution</h1>
+            <h1 className="h1Type2">Input some text bellow then click the letters to remove them</h1>
+            <MainInput value={characters} onChange={event => setCharacters(event.target.value)} />
+            <div className="characterSelection">
+                {[...characters].map((character, index) => <Char onClick={() => removeCharacterHandler(index)} key={index}>{character}</Char>)}
+            </div>
+            <ValidationText textLength={characters.length} />
+        </div>
+    );
 }
 
 export default App;
